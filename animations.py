@@ -119,7 +119,7 @@ class ShowGrid(Scene):
             [95, "empty", 105],
             [120, 135, 150]
         ]
-	numbers = self.create_numbers(values)
+		numbers = self.create_numbers(values)
         grid = self.create_grid()
 
         self.play(Create(grid))
